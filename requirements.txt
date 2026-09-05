@@ -1,1 +1,7 @@
-
+numpy
+pandas
+scikit-learn
+groq
+python-dotenv
+jupyter
+notebook
