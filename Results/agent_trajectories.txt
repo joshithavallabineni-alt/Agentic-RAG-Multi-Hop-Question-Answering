@@ -1,0 +1,220 @@
+AGENTIC RAG SYSTEM EVALUATION    
+
+
+--- QUESTION 1 ---
+Prompt: What is the capital of France?
+
+[Turn 1]
+  Thought: I need to retrieve information about the capital of France.
+  Action: Search
+  Query: capital of France
+  Observation: Geography of Europe: Paris is the capital and most populous city of France....
+[Turn 2]
+  Thought: I have enough information from the retrieved observation.
+  Action: Finish
+  Final Extracted Answer: Paris
+
+Target Gold Answer: Paris
+
+
+--- QUESTION 2 ---
+Prompt: Who directed the movie Inception?
+
+[Turn 1]
+  Thought: I need to retrieve information about the director of the movie Inception.
+  Action: Search
+  Query: director of Inception movie
+  Observation: Inception (film): Inception is a 2010 science fiction action film written and directed by Christopher Nolan....
+[Turn 2]
+  Thought: The retrieved observation states that Christopher Nolan directed Inception.
+  Action: Finish
+  Final Extracted Answer: Christopher Nolan
+
+Target Gold Answer: Christopher Nolan
+
+
+--- QUESTION 3 ---
+Prompt: Who wrote the Harry Potter series?
+
+[Turn 1]
+  Thought: I need to retrieve information about the author of the Harry Potter series.
+  Action: Search
+  Query: Who wrote the Harry Potter series?
+  Observation: Harry Potter: Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling....
+[Turn 2]
+  Thought: I have enough information from the retrieved observation.
+  Action: Finish
+  Final Extracted Answer: J. K. Rowling
+
+Target Gold Answer: J. K. Rowling
+
+
+--- QUESTION 4 ---
+Prompt: What is the largest planet in our Solar System?
+
+[Turn 1]
+  Thought: I need to retrieve information about the largest planet in the Solar System.
+  Action: Search
+  Query: largest planet in the Solar System
+  Observation: Jupiter: Jupiter is the fifth planet from the Sun and the largest in the Solar System....
+[Turn 2]
+  Thought: I have enough information from the retrieved observation.
+  Action: Finish
+  Final Extracted Answer: Jupiter
+
+Target Gold Answer: Jupiter
+
+
+--- QUESTION 5 ---
+Prompt: What is the chemical symbol for Gold?
+
+[Turn 1]
+  Thought: I need to retrieve the chemical symbol for Gold.
+  Action: Search
+  Query: chemical symbol for gold
+  Observation: Gold: Gold is a chemical element with the symbol Au and atomic number 79....
+[Turn 2]
+  Thought: The retrieved observation directly provides the chemical symbol for gold.
+  Action: Finish
+  Final Extracted Answer: Au
+
+Target Gold Answer: Au
+
+
+--- QUESTION 6 ---
+Prompt: Who was the first person to walk on the moon?
+
+[Turn 1]
+  Thought: I need to retrieve information about the first person to walk on the moon.
+  Action: Search
+  Query: first person to walk on the moon
+  Observation: Buzz Aldrin: Buzz Aldrin was the second person to walk on the Moon....
+[Turn 2]
+  Thought: The previous search for "first person to walk on the moon" returned information about Buzz Aldrin being the second person. To find the first, I should refine the query to focus on the Apollo 11 mission or the term "first man on the moon."
+  Action: Search
+  Query: first man to walk on the moon
+  Observation: Buzz Aldrin: Buzz Aldrin was the second person to walk on the Moon....
+[Turn 3]
+  Thought: The previous queries about "first person to walk on the moon" and "first man" returned information about Buzz Aldrin as the second person. To find the first, I need to refine the query to explicitly ask for the first person or use a different phrasing.
+  Action: Search
+  Query: first person on the moon
+  Observation: Buzz Aldrin: Buzz Aldrin was the second person to walk on the Moon....
+[Turn 4]
+  Thought: Previous searches did not retrieve the first person. Need to refine query with specific mission details.
+  Action: Search
+  Query: Apollo 11 first person on the moon
+  Observation: Apollo 11: Neil Armstrong became the first person to step onto the lunar surface on July 21, 1969....
+
+Target Gold Answer: Neil Armstrong
+
+
+--- QUESTION 7 ---
+Prompt: Who painted the Mona Lisa?
+
+[Turn 1]
+  Thought: I need to retrieve information about the painter of the Mona Lisa.
+  Action: Search
+  Query: Who painted the Mona Lisa?
+  Observation: Mona Lisa: The Mona Lisa is a portrait painting by the Italian Renaissance artist Leonardo da Vinci....
+[Turn 2]
+  Thought: I have enough information from the retrieved observation.
+  Action: Finish
+  Final Extracted Answer: Leonardo da Vinci
+
+Target Gold Answer: Leonardo da Vinci
+
+
+--- QUESTION 8 ---
+Prompt: What is the fastest land animal?
+
+[Turn 1]
+  Thought: I need to retrieve information about the fastest land animal.
+  Action: Search
+  Query: fastest land animal
+  Observation: Cheetah: The cheetah is a large cat native to Africa and central Iran, and is the fastest land animal....
+[Turn 2]
+  Thought: I have enough information from the retrieved observation.
+  Action: Finish
+  Final Extracted Answer: Cheetah
+
+Target Gold Answer: Cheetah
+
+
+--- QUESTION 9 ---
+Prompt: In what year did the Titanic sink?
+
+[Turn 1]
+  Thought: I need to retrieve information about the year the Titanic sank.
+  Action: Search
+  Query: Titanic sink year
+  Observation: RMS Titanic: The Titanic sank on 15 April 1912 after striking an iceberg during her maiden voyage....
+[Turn 2]
+  Thought: The retrieved observation provides the exact date the Titanic sank, which includes the year.
+  Action: Finish
+  Final Extracted Answer: 1912
+
+Target Gold Answer: 1912
+
+
+--- QUESTION 10 ---
+Prompt: Who is credited with inventing the telephone?
+
+[Turn 1]
+  Thought: I need to retrieve information about who invented the telephone.
+  Action: Search
+  Query: inventor of the telephone
+  Observation: Geography of Europe: Paris is the capital and most populous city of France....
+[Turn 2]
+  Thought: The previous search query "inventor of the telephone" returned unrelated results. I need to refine the query to focus on the telephone inventor.
+  Action: Search
+  Query: who invented the telephone
+  Observation: Alexander Graham Bell: Alexander Graham Bell is credited with patenting the first practical telephone in 1876....
+[Turn 3]
+  Thought: The retrieved observation states that Alexander Graham Bell is credited with patenting the first practical telephone in 1876. This directly answers the question.
+  Action: Finish
+  Final Extracted Answer: Alexander Graham Bell
+
+Target Gold Answer: Alexander Graham Bell
+
+
+--- QUESTION 11 ---
+Prompt: What is the tallest mountain in the world?
+
+[Turn 1]
+  Thought: I need to retrieve information about the tallest mountain in the world.
+  Action: Search
+  Query: tallest mountain in the world
+  Observation: Peregrine Falcon: The peregrine falcon is the fastest bird in the world....
+[Turn 2]
+  Thought: The previous search returned unrelated information. I need to refine the query to focus on mountain height.
+  Action: Search
+  Query: highest mountain in the world
+  Observation: K2: K2 is the second-highest mountain on Earth....
+[Turn 3]
+  Thought: The previous queries returned unrelated or incorrect information. I need to refine the search to specifically find the tallest mountain.
+  Action: Search
+  Query: highest mountain above sea level
+  Observation: Mount Everest: Mount Everest is Earth's highest mountain above sea level, located in the Mahalangur Himal sub-range of the Himalayas....
+[Turn 4]
+  Thought: I have enough information from the retrieved observation.
+  Action: Finish
+  Final Extracted Answer: Mount Everest
+
+Target Gold Answer: Mount Everest
+
+
+--- QUESTION 12 ---
+Prompt: What is the rarest blood type in the human body?
+
+[Turn 1]
+  Thought: I need to retrieve information on the rarest blood type in humans.
+  Action: Search
+  Query: rarest blood type in humans
+  Observation: Blood type AB: AB-negative is considered the rarest blood type in the human population....
+[Turn 2]
+  Thought: The retrieved observation states that AB-negative is the rarest blood type in humans, which directly answers the question about the human body.
+  Action: Finish
+  Final Extracted Answer: AB-negative
+
+Target Gold Answer: AB-negative
+

@@ -1,0 +1,242 @@
+[
+    {
+        "question": "What is the capital of France?",
+        "context": [
+            {
+                "title": "Geography of Europe",
+                "sentence": "Paris is the capital and most populous city of France."
+            },
+            {
+                "title": "London Facts",
+                "sentence": "London is the capital of the United Kingdom."
+            }
+        ],
+        "supporting_facts": [
+            {
+                "title": "Geography of Europe",
+                "sent_id": 0
+            }
+        ],
+        "answer": "Paris"
+    },
+    {
+        "question": "Who directed the movie Inception?",
+        "context": [
+            {
+                "title": "Inception (film)",
+                "sentence": "Inception is a 2010 science fiction action film written and directed by Christopher Nolan."
+            },
+            {
+                "title": "Avatar (film)",
+                "sentence": "Avatar is a 2009 epic science fiction film directed by James Cameron."
+            }
+        ],
+        "supporting_facts": [
+            {
+                "title": "Inception (film)",
+                "sent_id": 0
+            }
+        ],
+        "answer": "Christopher Nolan"
+    },
+    {
+        "question": "Who wrote the Harry Potter series?",
+        "context": [
+            {
+                "title": "Harry Potter",
+                "sentence": "Harry Potter is a series of seven fantasy novels written by British author J. K. Rowling."
+            },
+            {
+                "title": "Percy Jackson",
+                "sentence": "Percy Jackson is a pentalogy of fantasy novels written by American author Rick Riordan."
+            }
+        ],
+        "supporting_facts": [
+            {
+                "title": "Harry Potter",
+                "sent_id": 0
+            }
+        ],
+        "answer": "J. K. Rowling"
+    },
+    {
+        "question": "What is the largest planet in our Solar System?",
+        "context": [
+            {
+                "title": "Jupiter",
+                "sentence": "Jupiter is the fifth planet from the Sun and the largest in the Solar System."
+            },
+            {
+                "title": "Saturn",
+                "sentence": "Saturn is the sixth planet from the Sun and the second-largest in the Solar System."
+            }
+        ],
+        "supporting_facts": [
+            {
+                "title": "Jupiter",
+                "sent_id": 0
+            }
+        ],
+        "answer": "Jupiter"
+    },
+    {
+        "question": "What is the chemical symbol for Gold?",
+        "context": [
+            {
+                "title": "Gold",
+                "sentence": "Gold is a chemical element with the symbol Au and atomic number 79."
+            },
+            {
+                "title": "Silver",
+                "sentence": "Silver is a chemical element with the symbol Ag and atomic number 47."
+            }
+        ],
+        "supporting_facts": [
+            {
+                "title": "Gold",
+                "sent_id": 0
+            }
+        ],
+        "answer": "Au"
+    },
+    {
+        "question": "Who was the first person to walk on the moon?",
+        "context": [
+            {
+                "title": "Apollo 11",
+                "sentence": "Neil Armstrong became the first person to step onto the lunar surface on July 21, 1969."
+            },
+            {
+                "title": "Buzz Aldrin",
+                "sentence": "Buzz Aldrin was the second person to walk on the Moon."
+            }
+        ],
+        "supporting_facts": [
+            {
+                "title": "Apollo 11",
+                "sent_id": 0
+            }
+        ],
+        "answer": "Neil Armstrong"
+    },
+    {
+        "question": "Who painted the Mona Lisa?",
+        "context": [
+            {
+                "title": "Mona Lisa",
+                "sentence": "The Mona Lisa is a portrait painting by the Italian Renaissance artist Leonardo da Vinci."
+            },
+            {
+                "title": "The Starry Night",
+                "sentence": "The Starry Night is an oil-on-canvas painting by the Dutch Post-Impressionist painter Vincent van Gogh."
+            }
+        ],
+        "supporting_facts": [
+            {
+                "title": "Mona Lisa",
+                "sent_id": 0
+            }
+        ],
+        "answer": "Leonardo da Vinci"
+    },
+    {
+        "question": "What is the fastest land animal?",
+        "context": [
+            {
+                "title": "Cheetah",
+                "sentence": "The cheetah is a large cat native to Africa and central Iran, and is the fastest land animal."
+            },
+            {
+                "title": "Peregrine Falcon",
+                "sentence": "The peregrine falcon is the fastest bird in the world."
+            }
+        ],
+        "supporting_facts": [
+            {
+                "title": "Cheetah",
+                "sent_id": 0
+            }
+        ],
+        "answer": "Cheetah"
+    },
+    {
+        "question": "In what year did the Titanic sink?",
+        "context": [
+            {
+                "title": "RMS Titanic",
+                "sentence": "The Titanic sank on 15 April 1912 after striking an iceberg during her maiden voyage."
+            },
+            {
+                "title": "RMS Lusitania",
+                "sentence": "The RMS Lusitania was sunk by a German U-boat in 1915."
+            }
+        ],
+        "supporting_facts": [
+            {
+                "title": "RMS Titanic",
+                "sent_id": 0
+            }
+        ],
+        "answer": "1912"
+    },
+    {
+        "question": "Who is credited with inventing the telephone?",
+        "context": [
+            {
+                "title": "Alexander Graham Bell",
+                "sentence": "Alexander Graham Bell is credited with patenting the first practical telephone in 1876."
+            },
+            {
+                "title": "Thomas Edison",
+                "sentence": "Thomas Edison developed many devices in fields such as electric power generation and sound recording."
+            }
+        ],
+        "supporting_facts": [
+            {
+                "title": "Alexander Graham Bell",
+                "sent_id": 0
+            }
+        ],
+        "answer": "Alexander Graham Bell"
+    },
+    {
+        "question": "What is the tallest mountain in the world?",
+        "context": [
+            {
+                "title": "Mount Everest",
+                "sentence": "Mount Everest is Earth's highest mountain above sea level, located in the Mahalangur Himal sub-range of the Himalayas."
+            },
+            {
+                "title": "K2",
+                "sentence": "K2 is the second-highest mountain on Earth."
+            }
+        ],
+        "supporting_facts": [
+            {
+                "title": "Mount Everest",
+                "sent_id": 0
+            }
+        ],
+        "answer": "Mount Everest"
+    },
+    {
+        "question": "What is the rarest blood type in the human body?",
+        "context": [
+            {
+                "title": "Blood type AB",
+                "sentence": "AB-negative is considered the rarest blood type in the human population."
+            },
+            {
+                "title": "Blood type O",
+                "sentence": "O-positive is the most common blood type globally."
+            }
+        ],
+        "supporting_facts": [
+            {
+                "title": "Blood type AB",
+                "sent_id": 0
+            }
+        ],
+        "answer": "AB-negative"
+    }
+]
