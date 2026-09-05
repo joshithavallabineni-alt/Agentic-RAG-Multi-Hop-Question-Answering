@@ -8,7 +8,7 @@ The system was built without LangChain, LlamaIndex, CrewAI, or other pre-built a
 
 ---
 
-## 🏆 Result
+## Result
 
 ### Professor's Unseen Evaluation
 
@@ -20,7 +20,7 @@ The system was built without LangChain, LlamaIndex, CrewAI, or other pre-built a
 
 ---
 
-## 🎯 Problem Statement
+## Problem Statement
 
 The goal of the project is to build an agentic RAG system capable of answering **multi-hop questions** by iteratively retrieving and reasoning over a small document pool.
 
@@ -38,7 +38,7 @@ The project specifically requires the system to implement the underlying agent a
 
 ---
 
-## 🧠 System Architecture
+## System Architecture
 
 ```text
                          User Question
@@ -86,7 +86,7 @@ The system follows an explicit iterative ReAct workflow rather than using a fixe
 
 ---
 
-## 🔄 ReAct Agent Loop
+## ReAct Agent Loop
 
 The agent has two available actions:
 
@@ -145,7 +145,7 @@ The search process is bounded to prevent uncontrolled execution.
 
 ---
 
-## 🔎 Retrieval
+## Retrieval
 
 The retriever is implemented from scratch using:
 
@@ -170,7 +170,7 @@ This keeps the retrieval mechanism simple and transparent while allowing the ReA
 
 ---
 
-## 🧰 Tool Use
+## Tool Use
 
 The agent interacts with the retriever through a search tool:
 
@@ -184,7 +184,7 @@ This forces the agent to decide **what information it needs to retrieve next**.
 
 ---
 
-## 🧠 Agent Memory
+## Agent Memory
 
 The system maintains memory of previous search steps.
 
@@ -205,7 +205,7 @@ This history enables the agent to:
 
 ---
 
-## 🛡️ Loop Guard
+## Loop Guard
 
 The ReAct controller includes bounded execution to prevent an agent from searching indefinitely.
 
@@ -215,7 +215,7 @@ This provides a practical stopping mechanism while allowing the agent to decide 
 
 ---
 
-## 🤖 LLM
+## LLM
 
 The system uses:
 
@@ -236,7 +236,7 @@ The prompt is designed to encourage:
 
 ---
 
-## 📊 Evaluation
+## Evaluation
 
 The project evaluation includes the following metrics:
 
@@ -258,7 +258,7 @@ Among incorrect answers, identifies whether the agent stopped without ever retri
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 agentic-rag/
@@ -290,7 +290,7 @@ The notebooks document the development and experimentation process, while the mo
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Python**
 - **Qwen3-32B**
@@ -306,7 +306,7 @@ No pre-built agent or RAG framework was used.
 
 ---
 
-## ⚙️ Setup
+## Setup
 
 ### 1. Clone the repository
 
@@ -335,7 +335,7 @@ Use `.env.example` as the template for required environment variables.
 
 ---
 
-## ▶️ Running the Project
+## Running the Project
 
 The complete pipeline can be explored through:
 
@@ -356,7 +356,7 @@ For understanding the individual components, the notebooks can be followed in th
 
 ---
 
-## 📈 Development & Error Analysis
+## Development & Error Analysis
 
 During development, the system demonstrated both retrieval failures and retrieval recovery.
 
@@ -366,7 +366,7 @@ The development analysis highlighted retrieval quality as an important factor be
 
 ---
 
-## 🔮 Future Improvements
+## Future Improvements
 
 Potential improvements include:
 
@@ -379,7 +379,7 @@ Potential improvements include:
 
 ---
 
-## 👤 My Contributions
+## My Contributions
 
 My primary contributions focused on the **agent control layer**:
 
@@ -391,13 +391,13 @@ My primary contributions focused on the **agent control layer**:
 
 ---
 
-## 📄 Documentation
+## Documentation
 
 The project report contains details about the retrieval and prompt design, development-time failure analysis, and potential future improvements.
 
 ---
 
-## 🏁 Outcome
+## Outcome
 
 This project provided a from-scratch implementation of the core mechanics behind an agentic RAG system:
 
